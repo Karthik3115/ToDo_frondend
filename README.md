@@ -1,16 +1,21 @@
-# React + Vite
+# ToDo Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful React-based frontend for the Todo App, featuring a premium dark glassmorphism design.
 
-Currently, two official plugins are available:
+## 🚀 Deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This frontend is designed to work with the **ToDo Backend**.
 
-## React Compiler
+When deploying (e.g., to Vercel or Netlify), ensure you update the backend API proxy or URL if necessary.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Local Setup
+1. `npm install`
+2. `npm run dev`
 
-## Expanding the ESLint configuration
+The app will be available at `http://localhost:5173`.
+Vite is configured to proxy `/api` requests to `http://localhost:5000`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Dark premium theme
+- Secure JWT flow
+- Responsive profile dashboard
